@@ -135,7 +135,12 @@ switch(opcao) // inicio da selecao do menu
  	 
 	 case 3:
 	 deletar();
- 	 break;		
+ 	 break;	
+	  
+	 case 4:
+	 printf("Obrigado por utilizar o sistema!\n");
+	 return 0;
+	 break;	
  	
  	 default:
 	 printf("Essa opcao näo está disponivel\n");
